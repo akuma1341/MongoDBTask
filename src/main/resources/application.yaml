@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/MongoDBTask
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
